@@ -90,7 +90,7 @@
         }
       }
     },
-    "/seed/picsum/{width}/{height}": {
+    "/{width}/{height}": {
       "get": {
         "operationId": "getStaticRandomImage",
         "summary": "Get static random image",
