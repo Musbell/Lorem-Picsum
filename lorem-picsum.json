@@ -57,30 +57,6 @@
           }
         }
       }
-    },
-    "/id/{id}/info": {
-      "get": {
-        "operationId": "getImageInformation",
-        "summary": "Get image information",
-        "description": "Returns information about an image.",
-        "tags": ["Images"],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "The image id",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   }
 }
